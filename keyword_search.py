@@ -34,4 +34,4 @@ if __name__ == "__main__":
             print(f"Bill ID: {bill['bill_id']}")
             print("-" * 20)
     else:
-        print(f"No bills found for '{user_input}'.")
+        print(f"There were no bills found for '{user_input}'. Please try again.")
